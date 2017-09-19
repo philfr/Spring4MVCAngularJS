@@ -24,6 +24,8 @@ public class CORSFilter implements Filter {
 
 	public void init(FilterConfig filterConfig) {}
 
-	public void destroy() {}
+	public void destroy() {
+            System.out.println("Destroy By BrancheModif01");
+        }
 
 }
